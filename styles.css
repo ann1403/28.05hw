@@ -1,0 +1,162 @@
+.container {
+    margin: 20px;
+    width: 600px;
+    height: 600px;
+    background-color: aliceblue;
+}
+
+.main {
+    width: 600px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
+    flex-direction: column;
+    align-items: center;
+}
+
+.road1 {
+    position: absolute;
+    height: 350px;
+    border: 75px rgb(70, 70, 70) solid;
+    left: 233px;
+}
+
+.line1r1 {
+    border: 3px #FFF solid;
+    background: #FFF;
+    position: absolute;
+    width: 3px;
+    height: 150px;
+    left: 305px;
+}
+
+.line2r1 {
+    border: 3px #FFF solid;
+    background: #FFF;
+    position: absolute;
+    width: 3px;
+    height: 150px;
+    left: 305px;
+    top: 355px;
+}
+
+.line1r2 {
+    border: 3px #FFF solid;
+    background: #FFF;
+    position: absolute;
+    width: 150px;
+    height: 3px;
+    left: 8px;
+    top: 250px;
+}
+
+.line2r2 {
+    border: 3px #FFF solid;
+    background: #FFF;
+    position: absolute;
+    width: 150px;
+    height: 3px;
+    left: 452px;
+    top: 250px;
+}
+
+.road2 {
+    border: 63px rgb(70, 70, 70) solid;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+
+.light1r2 {
+    position: absolute;
+    border-radius: 3px;
+    background-color: darkgrey;
+    width: 80px;
+    height: 40px;
+    left: 140px;
+    top: 150px;
+}
+
+.light2r2 {
+    position: absolute;
+    border-radius: 3px;
+    background-color: darkgrey;
+    width: 80px;
+    height: 40px;
+    left: 390px;
+    top: 330px;
+}
+
+.light1r1 {
+    position: absolute;
+    border-radius: 3px;
+    background-color: darkgrey;
+    width: 40px;
+    height: 80px;
+    left: 390px;
+    top: 110px;
+}
+
+.light2r1 {
+    position: absolute;
+    border-radius: 3px;
+    background-color: darkgrey;
+    width: 40px;
+    height: 80px;
+    left: 185px;
+    top: 330px;
+}
+
+.red1r1,
+.red2r1 {
+    position: absolute;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: darksalmon;
+    left: 5px;
+    top: 5px;
+}
+
+.green1r1,
+.green2r1 {
+    position: absolute;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    left: 5px;
+    top: 40px;
+}
+
+.red1r2,
+.red2r2 {
+    position: absolute;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    left: 5px;
+    top: 5px;
+}
+
+.green1r2,
+.green2r2 {
+    position: absolute;
+    border-radius: 15px;
+    width: 30px;
+    height: 30px;
+    background-color: lightgreen;
+    left: 40px;
+    top: 5px;
+}
+
+.but {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 2px rgb(167, 157, 74) solid;
+    background: rgb(228, 89, 8);
+}
